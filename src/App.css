@@ -159,3 +159,13 @@ p{
   user-select: none; /* Non-prefixed version, currently
   not supported by any browser */
 }
+.control{
+  position: absolute;
+  font-size: 20px;
+  left:160px;
+  top:15px;
+}
+.control:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}

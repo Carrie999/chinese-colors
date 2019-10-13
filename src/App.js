@@ -157,6 +157,16 @@ class App extends Component {
     this.setState({ status: 'stop' })
     clearInterval(this.timer)
   }
+  control =()=>{
+    var audio = document.getElementById('music');
+    if(audio!==null){
+      if(audio.paused){
+        audio.play();// 播放
+      }else{
+        audio.pause();// 暂停
+      }
+    }
+  }
   render() {
     const {
       currentColorName,
@@ -173,13 +183,8 @@ class App extends Component {
         ref="containerWrap"
         style={{ backgroundColor: currentColor }}
       >
-        <audio
-          src={this.state.country === 'japan' ? japanBg : chinaBg}
-          autoPlay="autoplay"
-          loop="loop"
-        >
-          Your browser does not support the audio element.
-        </audio>
+       
+        
 
         <div onClick={this.fullScreen} className="full-screen">
           {!this.state.full ? (
@@ -205,7 +210,15 @@ class App extends Component {
         ) : (
           <i onClick={this.stop} className={'iconfont icontingzhi play'}></i>
         )}
-
+         <span className= 'control' onClick={this.control}>播放/暂停</span>
+         <audio
+          src={this.state.country === 'japan' ? japanBg : chinaBg}
+          autoPlay="autoplay"
+          loop="loop"
+          id ='music'
+        >
+          Your browser does not support the audio element.
+        </audio>
         <div
           className="current-name"
           style={{ color: `${currentIsDark ? '#000' : '#fff'}` }}

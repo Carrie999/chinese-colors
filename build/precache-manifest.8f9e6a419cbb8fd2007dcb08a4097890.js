@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c933a1eb70ec06f1d629bc54cd0889d",
+    "revision": "c8034bbb6d199806a56551fec1c84754",
     "url": "/chinese-colors/build/index.html"
   },
   {
-    "revision": "69bfba3d64df3ec0463b",
-    "url": "/chinese-colors/build/static/css/main.8ede80ca.chunk.css"
+    "revision": "c6d1b16d9db71f1d0865",
+    "url": "/chinese-colors/build/static/css/main.1092ef4b.chunk.css"
   },
   {
     "revision": "a68b0e92824cb5f21230",
     "url": "/chinese-colors/build/static/js/2.0158ef1d.chunk.js"
   },
   {
-    "revision": "69bfba3d64df3ec0463b",
-    "url": "/chinese-colors/build/static/js/main.39942000.chunk.js"
+    "revision": "c6d1b16d9db71f1d0865",
+    "url": "/chinese-colors/build/static/js/main.dfd8f568.chunk.js"
   },
   {
     "revision": "90645abf4ca1d3f2179c",
