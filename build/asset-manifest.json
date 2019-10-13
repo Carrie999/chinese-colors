@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.523e8fed.chunk.css",
+    "main.js": "/static/js/main.10b30346.chunk.js",
+    "main.js.map": "/static/js/main.10b30346.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ab3ec558.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ab3ec558.js.map",
+    "static/js/2.0158ef1d.chunk.js": "/static/js/2.0158ef1d.chunk.js",
+    "static/js/2.0158ef1d.chunk.js.map": "/static/js/2.0158ef1d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cb869b057274aeeea554b6e8a7db6296.js": "/precache-manifest.cb869b057274aeeea554b6e8a7db6296.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.523e8fed.chunk.css.map": "/static/css/main.523e8fed.chunk.css.map",
+    "static/media/china-bg.mp3": "/static/media/china-bg.61e05d2c.mp3",
+    "static/media/iconfont.css": "/static/media/iconfont.ecec80d3.woff",
+    "static/media/japan-bg.mp3": "/static/media/japan-bg.6a639271.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab3ec558.js",
+    "static/js/2.0158ef1d.chunk.js",
+    "static/css/main.523e8fed.chunk.css",
+    "static/js/main.10b30346.chunk.js"
+  ]
+}
