@@ -1,8 +1,14 @@
 .App {
-  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
 }
 
-.App-logo {
+*{
+  margin: 0;
+  padding: 0;
+}
+/* .App-logo {
   height: 40vmin;
 }
 
@@ -19,4 +25,137 @@
 
 .App-link {
   color: #09d3ac;
+} */
+
+p{
+  margin: 0;
+  padding: 0;
+}
+.aside{
+  position: absolute;
+  top:0;
+  right:0;
+  z-index: 1;
+  overflow:auto;
+  height: 100%;
+}
+.aside-piece{
+  width: 150px;
+  height:60px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  /* transition: all 0.5s; */
+}
+.aside-piece:hover{
+  cursor: pointer;
+}
+.aside-piece-one:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.aside-piece-color{
+  font-size: 12px;
+  transform: scale(0.9);
+  -webkit-transform-origin-X: center;
+}
+
+
+.current-name{
+  font-family: SimSun,NSimSun,FangSong,STFangsong;
+  position: absolute;
+  top:45px;
+  right:260px;
+  width: 90px;
+}
+.current-name-text{
+  font-size: 60px;
+  writing-mode: vertical-rl;
+  letter-spacing:10px;
+}
+.current-name-color{
+  font-size: 20px;
+  /* letter-spacing:15px; */
+}
+.current-name-jia{
+  position: absolute;
+  right:5px;
+  font-size: 17px;
+  writing-mode: vertical-rl;
+  letter-spacing:3px;
+  margin-left:10px;
+}
+.poem{
+  font-family: SimSun,NSimSun,FangSong,STFangsong;
+  font-size: 50px;
+  position: absolute;
+  top:320px;
+  left:230px;
+  opacity: 0.8;
+}
+.poem-author{
+  font-size: 18px;
+  margin-top: 20px;
+  text-indent:400px;
+}
+
+.poem-down{
+  margin-top: 10px;
+  text-indent:100px;
+}
+.button-span{
+  display: inline-block;
+  width:30px;
+  height: 30px;
+  border: 2px solid #fff;
+  position: relative;
+  left:60px;
+  top:11px;
+  text-align: center;
+  /* padding-left:50px; */
+  /* padding-top:10px; */
+}
+.button-span:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+.button-text{
+  font-weight: bold;
+  line-height: 30px;
+  color: #fff;
+}
+
+.iconfont-full-screen{
+  position: absolute;
+  font-size: 43px;
+  color: #fff;
+  left:10px;
+  top:4px;
+}
+.full-screen:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.play{
+  position: absolute;
+  font-size: 43px;
+  left:101px;
+  top:4px;
+}
+.play:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+  not supported by any browser */
 }
