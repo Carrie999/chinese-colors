@@ -8,6 +8,7 @@
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0"
   },
+  "homepage": "https://carrie999.github.io/chinese-colors/build/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.523e8fed.chunk.css",
-    "main.js": "/static/js/main.10b30346.chunk.js",
-    "main.js.map": "/static/js/main.10b30346.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ab3ec558.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ab3ec558.js.map",
-    "static/js/2.0158ef1d.chunk.js": "/static/js/2.0158ef1d.chunk.js",
-    "static/js/2.0158ef1d.chunk.js.map": "/static/js/2.0158ef1d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.cb869b057274aeeea554b6e8a7db6296.js": "/precache-manifest.cb869b057274aeeea554b6e8a7db6296.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.523e8fed.chunk.css.map": "/static/css/main.523e8fed.chunk.css.map",
-    "static/media/china-bg.mp3": "/static/media/china-bg.61e05d2c.mp3",
-    "static/media/iconfont.css": "/static/media/iconfont.ecec80d3.woff",
-    "static/media/japan-bg.mp3": "/static/media/japan-bg.6a639271.mp3"
+    "main.css": "/chinese-colors/build/static/css/main.8ede80ca.chunk.css",
+    "main.js": "/chinese-colors/build/static/js/main.39942000.chunk.js",
+    "main.js.map": "/chinese-colors/build/static/js/main.39942000.chunk.js.map",
+    "runtime-main.js": "/chinese-colors/build/static/js/runtime-main.9d7293e0.js",
+    "runtime-main.js.map": "/chinese-colors/build/static/js/runtime-main.9d7293e0.js.map",
+    "static/js/2.0158ef1d.chunk.js": "/chinese-colors/build/static/js/2.0158ef1d.chunk.js",
+    "static/js/2.0158ef1d.chunk.js.map": "/chinese-colors/build/static/js/2.0158ef1d.chunk.js.map",
+    "index.html": "/chinese-colors/build/index.html",
+    "precache-manifest.557f2655f075742ed1cc1e0bd3c8d92f.js": "/chinese-colors/build/precache-manifest.557f2655f075742ed1cc1e0bd3c8d92f.js",
+    "service-worker.js": "/chinese-colors/build/service-worker.js",
+    "static/css/main.8ede80ca.chunk.css.map": "/chinese-colors/build/static/css/main.8ede80ca.chunk.css.map",
+    "static/media/china-bg.mp3": "/chinese-colors/build/static/media/china-bg.61e05d2c.mp3",
+    "static/media/iconfont.css": "/chinese-colors/build/static/media/iconfont.ecec80d3.woff",
+    "static/media/japan-bg.mp3": "/chinese-colors/build/static/media/japan-bg.6a639271.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab3ec558.js",
+    "static/js/runtime-main.9d7293e0.js",
     "static/js/2.0158ef1d.chunk.js",
-    "static/css/main.523e8fed.chunk.css",
-    "static/js/main.10b30346.chunk.js"
+    "static/css/main.8ede80ca.chunk.css",
+    "static/js/main.39942000.chunk.js"
   ]
 }
